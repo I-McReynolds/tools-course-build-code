@@ -30,13 +30,13 @@ public class App {
         logger.info("Entering application.");
 	
 //         System.out.println(new App().getGreeting());
-		Greeter.greeter("greeter() called to print: entering application");
+        Greeter.greeter("greeter() called to print: entering application");
 
         logger.info("Calling doMatrixStuff()");
         doMatrixStuff();
 
         logger.info("Exiting application.");
-		Greeter.greeter("greeter() called to print: exiting application");
+        Greeter.greeter("greeter() called to print: exiting application");
 
     }
 
